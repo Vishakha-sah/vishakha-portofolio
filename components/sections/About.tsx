@@ -113,16 +113,11 @@ export default function About() {
               <div className="relative w-full h-full rounded-full overflow-hidden bg-surface-light"
 >
                 <Image
-                  src="/images/profile.jpg"
+                  src="/images/profile.jpeg"
                   alt="Vishakha Sah"
                   fill
                   className="object-cover"
                   priority
-                  onError={(e) => {
-                    // Fallback to placeholder
-                    const target = e.target as HTMLImageElement
-                    target.style.display = 'none'
-                  }}
                 />
 
                 {/* Placeholder fallback */}

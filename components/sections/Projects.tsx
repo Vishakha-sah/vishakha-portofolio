@@ -165,16 +165,14 @@ export default function Projects() {
                   </AnimatePresence>
                 </div>
 
-                {/* Project Image Placeholder */}
+                {/* Project Image */}
                 <div className="aspect-video rounded-lg bg-surface-light border border-border overflow-hidden relative">
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-center">
-                      <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent-violet/10 flex items-center justify-center">
-                        <FlaskConical className="w-8 h-8 text-accent-violet" />
-                      </div>
-                      <p className="text-text-muted text-sm">Plant Disease Detection Pipeline</p>
-                    </div>
-                  </div>
+                  <Image
+                    src="/images/plant_disease_pipeline.png"
+                    alt="Plant Disease Detection Pipeline"
+                    fill
+                    className="object-contain"
+                  />
                 </div>
               </div>
             </div>
