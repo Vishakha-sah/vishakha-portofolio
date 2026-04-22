@@ -39,7 +39,6 @@ bun.lockb
 # Vercel
 .vercel
 
-# Large files
-*.pdf
+# Large files (except resume)
 *.zip
 *.tar.gz
