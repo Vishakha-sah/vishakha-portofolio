@@ -1,8 +1,8 @@
 // Personal Info
 export const PERSONAL_INFO = {
   name: 'Vishakha Sah',
-  role: 'AI/ML Engineer · CSE Undergrad at KIIT',
-  tagline: 'Building intelligent systems at the intersection of research and real-world impact.',
+  role: 'Aspiring Software Engineer | AI/ML Enthusiast',
+  tagline: 'CSE Undergraduate at KIIT building intelligent systems at the intersection of research and real-world impact.',
   email: 'vishakhasah36@gmail.com',
   phone: '+91 6206103663',
   linkedin: 'https://www.linkedin.com/in/vishakha-sah-56777031b',
@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
 }
 
 // Bio for About section
-export const BIO = `I'm a Computer Science undergraduate at KIIT University with a passion for AI/ML and building intelligent systems. With a CGPA of 9.32, I've focused my academic journey on deep learning, computer vision, and natural language processing.
+export const BIO = `I'm a 4th year Computer Science & Engineering undergraduate at KIIT University with a passion for AI/ML and building intelligent systems. With a CGPA of 9.32, I've focused my academic journey on deep learning, computer vision, and natural language processing.
 
 My research-oriented approach led me to develop a plant disease detection system using GANs and attention mechanisms, achieving 99.89% accuracy. I'm also a Top 4 Finalist at Startup Hackathon 2025, where I built an AI-powered platform serving the Nepali diaspora.
 
