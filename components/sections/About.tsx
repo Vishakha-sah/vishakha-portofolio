@@ -110,13 +110,13 @@ export default function About() {
               <div className="absolute -inset-1 rounded-full border border-accent-violet/20" />
 
               {/* Image container */}
-              <div className="relative w-full h-full rounded-full overflow-hidden bg-surface-light"
->
+              <div className="relative w-full h-full rounded-full overflow-hidden bg-surface-light">
                 <Image
                   src="/images/profile.jpeg"
                   alt="Vishakha Sah"
-                  fill
-                  className="object-cover"
+                  width={500}
+                  height={500}
+                  className="object-cover w-full h-full"
                   priority
                 />
 
