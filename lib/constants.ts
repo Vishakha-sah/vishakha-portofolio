@@ -115,7 +115,7 @@ export const PROJECTS = {
       { id: 5, name: 'CBAM Attention Mechanism', result: 'Enhanced feature extraction' },
     ],
     tech: ['Python', 'PyTorch', 'ResNet50', 'WGAN-GP', 'CBAM', 'Scikit-learn', 'Google Colab'],
-    github: 'https://github.com/Vishakha-sah/Plant-Disease-Detection',
+    github: 'https://github.com/Vishakha-sah/GAN-Based-Synthetic-Image-Generation-for-Leaf-Disease-Classification-Using-CNN',
   },
   others: [
     {
@@ -123,7 +123,7 @@ export const PROJECTS = {
       description:
         'Developed a Random Forest machine learning model to predict mental health treatment needs. Performed preprocessing, feature engineering, and model evaluation.',
       tech: ['Python', 'Scikit-learn', 'Gradio', 'Hugging Face Spaces'],
-      link: 'https://github.com/Vishakha-sah/Student-Mental-Health-Treatment-Prediction',
+      link: 'https://github.com/Vishakha-sah/mental-health-project',
     },
     {
       title: 'CareConnect',
