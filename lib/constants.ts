@@ -115,7 +115,7 @@ export const PROJECTS = {
       { id: 5, name: 'CBAM Attention Mechanism', result: 'Enhanced feature extraction' },
     ],
     tech: ['Python', 'PyTorch', 'ResNet50', 'WGAN-GP', 'CBAM', 'Scikit-learn', 'Google Colab'],
-    github: '#',
+    github: 'https://github.com/Vishakha-sah/Plant-Disease-Detection',
   },
   others: [
     {
@@ -123,14 +123,14 @@ export const PROJECTS = {
       description:
         'Developed a Random Forest machine learning model to predict mental health treatment needs. Performed preprocessing, feature engineering, and model evaluation.',
       tech: ['Python', 'Scikit-learn', 'Gradio', 'Hugging Face Spaces'],
-      link: '#',
+      link: 'https://github.com/Vishakha-sah/Student-Mental-Health-Treatment-Prediction',
     },
     {
       title: 'CareConnect',
       description:
         'Built during a 24-hour hackathon as an AI orchestration platform serving the Nepali diaspora. Designed UI/UX wireframes in Figma and led frontend prototyping. Secured Top 4 Finalist at Startup Hackathon 2025.',
       tech: ['AI Tools', 'HTML/CSS/JS', 'SQL', 'Figma'],
-      link: '#',
+      link: 'https://github.com/Vishakha-sah/CareConnect',
       highlight: 'Top 4 Finalist — Startup Hackathon 2025',
     },
   ],

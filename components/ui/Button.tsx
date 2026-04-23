@@ -46,6 +46,7 @@ export default function Button({
       className={cn(baseStyles, variants[variant], className)}
       whileHover={{ y: -2 }}
       whileTap={{ scale: 0.95 }}
+      {...(href ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
     >
       {children}
     </Component>
