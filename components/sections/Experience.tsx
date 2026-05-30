@@ -42,7 +42,7 @@ export default function Experience() {
           <h2 className="text-3xl sm:text-4xl font-bold font-[family-name:var(--font-syne)] text-text-primary mb-4">
             Work Experience
           </h2>
-          <div className="w-16 h-1 bg-accent-violet mx-auto rounded-full" />
+          <div className="w-16 h-1 bg-accent-blue mx-auto rounded-full" />
         </motion.div>
 
         <motion.div
@@ -63,14 +63,14 @@ export default function Experience() {
                 className="relative md:grid md:grid-cols-2 md:gap-8"
               >
                 {/* Timeline dot */}
-                <div className="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-accent-violet -translate-x-1/2 mt-6" />
+                <div className="absolute left-4 md:left-1/2 w-3 h-3 rounded-full bg-accent-blue -translate-x-1/2 mt-6" />
 
                 {/* Card - alternating sides on desktop */}
                 <div className={`md:col-span-1 ${index % 2 === 0 ? 'md:pr-12' : 'md:col-start-2 md:pl-12'}`}>
-                  <Card className="ml-10 md:ml-0 p-6" glow="violet">
+                  <Card className="ml-10 md:ml-0 p-6" glow="blue">
                     <div className="flex items-start gap-4 mb-4">
-                      <div className="p-2 rounded-lg bg-accent-violet/10">
-                        <Briefcase className="w-5 h-5 text-accent-violet" />
+                      <div className="p-2 rounded-lg bg-accent-blue/10">
+                        <Briefcase className="w-5 h-5 text-accent-blue" />
                       </div>
                       <div>
                         <h3 className="text-lg font-semibold text-text-primary font-[family-name:var(--font-syne)]">
@@ -90,7 +90,7 @@ export default function Experience() {
                     <ul className="space-y-2 mb-4">
                       {experience.bullets.map((bullet, i) => (
                         <li key={i} className="text-sm text-text-muted/80 pl-4 relative">
-                          <span className="absolute left-0 text-accent-violet">•</span>
+                          <span className="absolute left-0 text-accent-blue">•</span>
                           {bullet}
                         </li>
                       ))}

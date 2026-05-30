@@ -4,7 +4,7 @@
   --color-background: #080808;
   --color-surface: #0f0f0f;
   --color-surface-light: #141414;
-  --color-accent-violet: #7C3AED;
+  --color-accent-blue: #2563EB;
   --color-accent-cyan: #06B6D4;
   --color-text-primary: #F8F8F8;
   --color-text-muted: #6B7280;
@@ -38,37 +38,37 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #7C3AED;
+  background: #2563EB;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8B5CF6;
+  background: #3B82F6;
 }
 
 /* Selection */
 ::selection {
-  background-color: #7C3AED;
+  background-color: #2563EB;
   color: #F8F8F8;
 }
 
 /* Focus visible */
 :focus-visible {
-  outline: 2px solid #7C3AED;
+  outline: 2px solid #2563EB;
   outline-offset: 2px;
 }
 
 /* Glow utilities */
-.glow-violet {
-  box-shadow: 0 0 20px rgba(124, 58, 237, 0.33);
+.glow-blue {
+  box-shadow: 0 0 20px rgba(37, 99, 235, 0.33);
 }
 
 .glow-cyan {
   box-shadow: 0 0 20px rgba(6, 182, 212, 0.33);
 }
 
-.glow-text-violet {
-  text-shadow: 0 0 20px rgba(124, 58, 237, 0.5);
+.glow-text-blue {
+  text-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
 }
 
 /* Glass morphism */
@@ -89,7 +89,7 @@ body {
 }
 
 .gradient-border {
-  background: linear-gradient(90deg, #7C3AED, #06B6D4, #7C3AED);
+  background: linear-gradient(90deg, #2563EB, #06B6D4, #2563EB);
   background-size: 200% 200%;
   animation: gradient-border 3s ease infinite;
 }

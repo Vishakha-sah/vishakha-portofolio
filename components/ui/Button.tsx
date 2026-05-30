@@ -25,13 +25,13 @@ export default function Button({
 
   const variants = {
     primary: cn(
-      'bg-accent-violet text-white',
-      'hover:shadow-[0_0_20px_rgba(124,58,237,0.4)]',
+      'bg-accent-blue text-white',
+      'hover:shadow-[0_0_20px_rgba(37,99,235,0.4)]',
       'active:scale-95'
     ),
     ghost: cn(
       'bg-transparent border border-border text-text-primary',
-      'hover:border-accent-violet hover:text-accent-violet',
+      'hover:border-accent-blue hover:text-accent-blue',
       'active:scale-95'
     ),
   }

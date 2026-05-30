@@ -15,7 +15,7 @@
 
 | Degree | Institution | Year | Score |
 |---|---|---|---|
-| B.Tech — Computer Science & Engineering | Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar | 2023 – 2027 | CGPA: 9.32 / 10 |
+| B.Tech — Computer Science & Engineering | Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar | 2023 – 2027 | CGPA: 9.34 / 10 |
 | Higher Secondary — Science Stream | St. Xavier's College, Kathmandu | — | GPA: 3.36 / 4 |
 
 ---

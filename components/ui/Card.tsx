@@ -5,14 +5,14 @@ import { cn } from '@/lib/utils'
 interface CardProps {
   children: React.ReactNode
   className?: string
-  glow?: 'violet' | 'cyan' | 'gradient' | null
+  glow?: 'blue' | 'cyan' | 'gradient' | null
 }
 
 export default function Card({ children, className, glow = null }: CardProps) {
   const glowStyles = {
-    violet: 'hover:shadow-[0_0_30px_rgba(124,58,237,0.3)] hover:border-accent-violet/50',
+    blue: 'hover:shadow-[0_0_30px_rgba(37,99,235,0.3)] hover:border-accent-blue/50',
     cyan: 'hover:shadow-[0_0_30px_rgba(6,182,212,0.3)] hover:border-accent-cyan/50',
-    gradient: 'hover:shadow-[0_0_30px_rgba(124,58,237,0.2)]',
+    gradient: 'hover:shadow-[0_0_30px_rgba(37,99,235,0.2)]',
     null: '',
   }
 

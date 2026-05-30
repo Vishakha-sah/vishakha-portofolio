@@ -14,7 +14,7 @@ function ParticleField({ count }: ParticleFieldProps) {
   const mouseRef = useRef({ x: 0, y: 0 })
 
   // Colors
-  const VIOLET = new THREE.Color('#7C3AED')
+  const BLUE = new THREE.Color('#2563EB')
   const CYAN = new THREE.Color('#06B6D4')
 
   // Create particles data
@@ -36,8 +36,8 @@ function ParticleField({ count }: ParticleFieldProps) {
       originalPositions[i * 3 + 1] = y
       originalPositions[i * 3 + 2] = z
 
-      // Alternate between violet and cyan
-      const color = i % 2 === 0 ? VIOLET : CYAN
+      // Alternate between blue and cyan
+      const color = i % 2 === 0 ? BLUE : CYAN
       colors[i * 3] = color.r
       colors[i * 3 + 1] = color.g
       colors[i * 3 + 2] = color.b
@@ -78,7 +78,7 @@ function ParticleField({ count }: ParticleFieldProps) {
   const linesMaterial = useMemo(
     () =>
       new THREE.LineBasicMaterial({
-        color: '#7C3AED',
+        color: '#2563EB',
         transparent: true,
         opacity: 0.2,
         blending: THREE.AdditiveBlending,

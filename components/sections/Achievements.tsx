@@ -46,7 +46,7 @@ export default function Achievements() {
           <h2 className="text-3xl sm:text-4xl font-bold font-[family-name:var(--font-syne)] text-text-primary mb-4">
             Achievements & Certifications
           </h2>
-          <div className="w-16 h-1 bg-accent-violet mx-auto rounded-full" />
+          <div className="w-16 h-1 bg-accent-blue mx-auto rounded-full" />
         </motion.div>
 
         <div className="grid lg:grid-cols-2 gap-12">
@@ -67,10 +67,10 @@ export default function Achievements() {
                 const Icon = iconMap[achievement.icon] || Trophy
                 return (
                   <motion.div key={achievement.title} variants={itemVariants}>
-                    <Card className="p-6" glow="violet">
+                    <Card className="p-6" glow="blue">
                       <div className="flex items-start gap-4">
-                        <div className="p-3 rounded-xl bg-accent-violet/10">
-                          <Icon className="w-6 h-6 text-accent-violet" />
+                        <div className="p-3 rounded-xl bg-accent-blue/10">
+                          <Icon className="w-6 h-6 text-accent-blue" />
                         </div>
                         <div>
                           <h4 className="text-lg font-semibold text-text-primary font-[family-name:var(--font-syne)]">

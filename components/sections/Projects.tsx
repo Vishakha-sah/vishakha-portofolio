@@ -47,7 +47,7 @@ export default function Projects() {
           <h2 className="text-3xl sm:text-4xl font-bold font-[family-name:var(--font-syne)] text-text-primary mb-4">
             Featured Projects
           </h2>
-          <div className="w-16 h-1 bg-accent-violet mx-auto rounded-full mb-4" />
+          <div className="w-16 h-1 bg-accent-blue mx-auto rounded-full mb-4" />
           <p className="text-text-muted max-w-2xl mx-auto">
             Research-focused AI/ML projects with measurable impact.
           </p>
@@ -65,8 +65,8 @@ export default function Projects() {
             <div className="grid lg:grid-cols-2 gap-8">
               <div>
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="p-2 rounded-lg bg-accent-violet/10">
-                    <FlaskConical className="w-5 h-5 text-accent-violet" />
+                  <div className="p-2 rounded-lg bg-accent-blue/10">
+                    <FlaskConical className="w-5 h-5 text-accent-blue" />
                   </div>
                   <span className="text-xs font-[family-name:var(--font-jetbrains)] text-accent-cyan uppercase tracking-wider">
                     Featured Project
@@ -82,7 +82,7 @@ export default function Projects() {
                 <ul className="space-y-2 mb-6">
                   {PROJECTS.featured.highlights.map((highlight, i) => (
                     <li key={i} className="text-sm text-text-muted/80 pl-4 relative">
-                      <span className="absolute left-0 text-accent-violet">•</span>
+                      <span className="absolute left-0 text-accent-blue">•</span>
                       {highlight}
                     </li>
                   ))}
@@ -146,7 +146,7 @@ export default function Projects() {
                             <tbody>
                               {PROJECTS.featured.experiments.map((exp) => (
                                 <tr key={exp.id} className="border-b border-border/50 last:border-0">
-                                  <td className="py-3 text-accent-violet font-[family-name:var(--font-jetbrains)]">
+                                  <td className="py-3 text-accent-blue font-[family-name:var(--font-jetbrains)]">
                                     {exp.id}
                                   </td>
                                   <td className="py-3 text-text-primary">{exp.name}</td>
@@ -189,7 +189,7 @@ export default function Projects() {
         >
           {PROJECTS.others.map((project) => (
             <motion.div key={project.title} variants={itemVariants}>
-              <Card className="h-full p-6" glow="violet">
+              <Card className="h-full p-6" glow="blue">
                 <div className="flex items-start justify-between mb-4">
                   <h3 className="text-xl font-bold font-[family-name:var(--font-syne)] text-text-primary">
                     {project.title}
@@ -198,15 +198,15 @@ export default function Projects() {
                     href={project.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="p-2 rounded-lg bg-surface-light hover:bg-accent-violet/10 transition-colors"
+                    className="p-2 rounded-lg bg-surface-light hover:bg-accent-blue/10 transition-colors"
                   >
-                    <ExternalLink className="w-4 h-4 text-text-muted hover:text-accent-violet" />
+                    <ExternalLink className="w-4 h-4 text-text-muted hover:text-accent-blue" />
                   </a>
                 </div>
 
                 {project.highlight && (
                   <div className="mb-4">
-                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-accent-violet/10 text-accent-violet">
+                    <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-accent-blue/10 text-accent-blue">
                       {project.highlight}
                     </span>
                   </div>

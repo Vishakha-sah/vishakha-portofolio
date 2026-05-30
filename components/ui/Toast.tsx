@@ -22,8 +22,8 @@ export default function Toast({ message, visible, onClose }: ToastProps) {
           className={cn(
             'fixed bottom-8 left-1/2 -translate-x-1/2 z-50',
             'flex items-center gap-2 px-4 py-3 rounded-lg',
-            'bg-surface border border-accent-violet/30',
-            'shadow-[0_0_20px_rgba(124,58,237,0.2)]'
+            'bg-surface border border-accent-blue/30',
+            'shadow-[0_0_20px_rgba(37,99,235,0.2)]'
           )}
           onAnimationComplete={() => {
             if (visible && onClose) {
@@ -31,8 +31,8 @@ export default function Toast({ message, visible, onClose }: ToastProps) {
             }
           }}
         >
-          <div className="flex items-center justify-center w-5 h-5 rounded-full bg-accent-violet/20">
-            <Check className="w-3 h-3 text-accent-violet" />
+          <div className="flex items-center justify-center w-5 h-5 rounded-full bg-accent-blue/20">
+            <Check className="w-3 h-3 text-accent-blue" />
           </div>
           <span className="text-sm text-text-primary">{message}</span>
         </motion.div>

@@ -99,7 +99,7 @@ Building intelligent systems at the intersection of research and real-world impa
 **Content:**
 - 3–4 sentence bio: KIIT student, AI/ML focus, Kathmandu roots, hackathon finalist
 - Quick stat cards (animated counters on scroll-enter):
-  - `9.32 CGPA`
+  - `9.34 CGPA`
   - `2 Internships`
   - `Top 4 Hackathon`
   - `5 Experiments` (Plant Disease project)

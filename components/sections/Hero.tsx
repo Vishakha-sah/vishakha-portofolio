@@ -62,7 +62,7 @@ export default function Hero() {
             <motion.span
               animate={{ opacity: [1, 0, 1] }}
               transition={{ duration: 0.8, repeat: Infinity }}
-              className="inline-block w-[3px] h-[0.8em] bg-accent-violet ml-1 align-middle"
+              className="inline-block w-[3px] h-[0.8em] bg-accent-blue ml-1 align-middle"
             />
           </h1>
 

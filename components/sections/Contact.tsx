@@ -36,11 +36,11 @@ export default function Contact() {
             {/* Email Copy Button */}
             <motion.button
               onClick={handleCopyEmail}
-              className="group flex items-center gap-3 px-6 py-4 rounded-xl border border-border bg-surface hover:border-accent-violet transition-all duration-300"
+              className="group flex items-center gap-3 px-6 py-4 rounded-xl border border-border bg-surface hover:border-accent-blue transition-all duration-300"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.98 }}
             >
-              <Mail className="w-5 h-5 text-accent-violet" />
+              <Mail className="w-5 h-5 text-accent-blue" />
               <span className="text-text-primary font-[family-name:var(--font-jetbrains)]">
                 {PERSONAL_INFO.email}
               </span>
@@ -51,7 +51,7 @@ export default function Contact() {
                 {copied ? (
                   <span className="text-xs text-accent-cyan">Copied!</span>
                 ) : (
-                  <Copy className="w-4 h-4 text-text-muted group-hover:text-accent-violet transition-colors" />
+                  <Copy className="w-4 h-4 text-text-muted group-hover:text-accent-blue transition-colors" />
                 )}
               </motion.div>
             </motion.button>
@@ -63,7 +63,7 @@ export default function Contact() {
               href={PERSONAL_INFO.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 rounded-xl border border-border bg-surface text-text-muted hover:text-accent-violet hover:border-accent-violet transition-all duration-300"
+              className="p-4 rounded-xl border border-border bg-surface text-text-muted hover:text-accent-blue hover:border-accent-blue transition-all duration-300"
               whileHover={{ y: -4 }}
               whileTap={{ scale: 0.95 }}
               aria-label="LinkedIn"
@@ -75,7 +75,7 @@ export default function Contact() {
               href={PERSONAL_INFO.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-4 rounded-xl border border-border bg-surface text-text-muted hover:text-accent-violet hover:border-accent-violet transition-all duration-300"
+              className="p-4 rounded-xl border border-border bg-surface text-text-muted hover:text-accent-blue hover:border-accent-blue transition-all duration-300"
               whileHover={{ y: -4 }}
               whileTap={{ scale: 0.95 }}
               aria-label="GitHub"

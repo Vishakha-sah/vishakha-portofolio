@@ -41,7 +41,7 @@ export default function Skills() {
           <h2 className="text-3xl sm:text-4xl font-bold font-[family-name:var(--font-syne)] text-text-primary mb-4">
             Skills & Technologies
           </h2>
-          <div className="w-16 h-1 bg-accent-violet mx-auto rounded-full mb-4" />
+          <div className="w-16 h-1 bg-accent-blue mx-auto rounded-full mb-4" />
           <p className="text-text-muted max-w-2xl mx-auto">
             Technologies and tools I've worked with across AI/ML research and web development.
           </p>

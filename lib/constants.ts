@@ -11,7 +11,7 @@ export const PERSONAL_INFO = {
 }
 
 // Bio for About section
-export const BIO = `I'm a 4th year Computer Science & Engineering undergraduate at KIIT University with a passion for AI/ML and building intelligent systems. With a CGPA of 9.32, I've focused my academic journey on deep learning, computer vision, and natural language processing.
+export const BIO = `I'm a 4th year Computer Science & Engineering undergraduate at KIIT University with a passion for AI/ML and building intelligent systems. With a CGPA of 9.34, I've focused my academic journey on deep learning, computer vision, and natural language processing.
 
 My research-oriented approach led me to develop a plant disease detection system using GANs and attention mechanisms, achieving 99.89% accuracy. I'm also a Top 4 Finalist at Startup Hackathon 2025, where I built an AI-powered platform serving the Nepali diaspora.
 
@@ -19,7 +19,7 @@ When I'm not training models or writing code, you'll find me exploring new AI re
 
 // Stats for About section
 export const STATS = [
-  { value: 9.32, label: 'CGPA', suffix: '', decimals: 2 },
+  { value: 9.34, label: 'CGPA', suffix: '', decimals: 2 },
   { value: 2, label: 'Internships', suffix: '', decimals: 0 },
   { value: 4, label: 'Hackathon Rank', prefix: 'Top ', decimals: 0 },
   { value: 5, label: 'Experiments', suffix: '', decimals: 0 },

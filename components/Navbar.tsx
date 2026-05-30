@@ -12,7 +12,7 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50)
+      setScrolled(window.scrollY > 80)
     }
 
     window.addEventListener('scroll', handleScroll)
@@ -29,13 +29,16 @@ export default function Navbar() {
     <>
       <motion.nav
         initial={{ opacity: 0, y: -20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
+        animate={{ 
+          opacity: 1, 
+          y: 0,
+          backgroundColor: scrolled ? 'rgba(15, 15, 15, 0.8)' : 'rgba(15, 15, 15, 0)',
+          backdropFilter: scrolled ? 'blur(12px)' : 'blur(0px)',
+          borderBottomColor: scrolled ? 'rgba(37, 99, 235, 0.3)' : 'rgba(37, 99, 235, 0)',
+        }}
+        transition={{ duration: 0.3, ease: 'easeInOut' }}
         className={cn(
-          'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-          scrolled
-            ? 'glass border-b border-border/50'
-            : 'bg-transparent'
+          'fixed top-0 left-0 right-0 z-50 border-b transition-colors duration-300'
         )}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -50,7 +53,7 @@ export default function Navbar() {
                 window.scrollTo({ top: 0, behavior: 'smooth' })
               }}
             >
-              <span className="text-2xl font-bold font-[family-name:var(--font-syne)] text-accent-violet glow-text-violet">
+              <span className="text-2xl font-bold font-[family-name:var(--font-syne)] text-accent-blue glow-text-blue">
                 VS
               </span>
             </motion.a>
@@ -108,7 +111,7 @@ export default function Navbar() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1 }}
                     onClick={() => handleNavClick(link.href)}
-                    className="text-left px-4 py-3 text-text-primary hover:text-accent-violet transition-colors rounded-lg hover:bg-surface-light"
+                    className="text-left px-4 py-3 text-text-primary hover:text-accent-blue transition-colors rounded-lg hover:bg-surface-light"
                   >
                     {link.label}
                   </motion.button>

@@ -16,7 +16,7 @@ export default function Tag({ children, className }: TagProps) {
         'border border-border bg-surface/50 text-text-primary',
         'font-[family-name:var(--font-jetbrains)]',
         'transition-all duration-300',
-        'hover:border-accent-violet hover:shadow-[0_0_10px_rgba(124,58,237,0.3)]',
+        'hover:border-accent-blue hover:shadow-[0_0_10px_rgba(37,99,235,0.3)]',
         className
       )}
       whileHover={{ y: -2 }}
